@@ -18,6 +18,10 @@ const StyledContainer = styled.div`
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
 
+  overflow-x: scroll;
+  overflow-y: auto;
+  max-height: 700px;
+
   &.small {
     max-width: 28.75rem; // 460,8px con font-size 16px
   }
