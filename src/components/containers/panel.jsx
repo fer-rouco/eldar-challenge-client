@@ -15,6 +15,7 @@ const StyledContainer = styled.div`
 
   padding: 1.25rem;
 
+  margin-top: 1.25rem;
   margin-bottom: 1.25rem;
 
   &.small {
