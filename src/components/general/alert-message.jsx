@@ -60,7 +60,7 @@ export default function AlertMessage() {
 
   setTimeout(function () {
     cleanMessageIfExistsInDOM();
-  }, 5000000);
+  }, 5000);
 
   const alertMessage = (
     <StyledAlertMessage
