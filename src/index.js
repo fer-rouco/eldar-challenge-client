@@ -23,22 +23,11 @@ get('api/healthcheck')
     );
   })
   .finally(() => {
-    // const router = createBrowserRouter([
-    //   {
-    //     path: "/",
-    //     element: <App></App>
-    //     // loader: <LoadIndicator></LoadIndicator>,
-    //   },
-    // ]);
-
     const routing = (
       <React.StrictMode>
-        {/* <ThemeModeProvider> */}
-          <BrowserRouter>
-            {routingApp}
-          </BrowserRouter>
-          {/* <RouterProvider router={router} /> */}
-        {/* </ThemeModeProvider> */}
+        <BrowserRouter>
+          {routingApp}
+        </BrowserRouter>
       </React.StrictMode>
     );
     const root = createRoot(container);

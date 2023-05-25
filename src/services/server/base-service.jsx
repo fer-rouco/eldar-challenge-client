@@ -17,7 +17,7 @@ async function processRequest(promise) {
         resolve(data);        
       })
       .catch((error) => {
-        if (error.code) {
+        if (error.code && error.response) {
           return { message: error.response.data, status: error.response.status, statusText: error.response.statusText };
         } else {
           return {message: error.toString()};
@@ -32,7 +32,6 @@ async function processRequest(promise) {
 }
 
 export async function get(url, body, config) {
-  console.log("confg: ", url)
   return await processRequest(Axios.get(SERVER_URL + url, body, config));
 }
 

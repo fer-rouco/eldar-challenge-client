@@ -37,6 +37,7 @@ const StyledAlertMessageCloseButton = styled(Button)`
   bottom: 6px;
   position: relative;
   margin-left: 10px;
+  margin-bottom: 0;
 `;
 
 export default function AlertMessage() {
@@ -59,7 +60,7 @@ export default function AlertMessage() {
 
   setTimeout(function () {
     cleanMessageIfExistsInDOM();
-  }, 5000);
+  }, 5000000);
 
   const alertMessage = (
     <StyledAlertMessage

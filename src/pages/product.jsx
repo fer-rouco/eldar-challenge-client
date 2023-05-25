@@ -6,6 +6,10 @@ import InputField from '../components/controls/fields/input-field';
 import SubmitButton from '../components/controls/buttons/submit-button';
 import { useNavigate } from 'react-router-dom';
 import { useAlertMessage } from '../contexts/alert-message-context';
+import storageManagerService from "../services/storage/storage-manager-service";
+import { STORAGE_SESSION_IDENTIFIER } from '../services/storage/storage-constants';
+
+const sessionStorageService = storageManagerService(true);
 
 const Product = ({ hideTitle }) => {
   const navigate = useNavigate();
@@ -68,7 +72,8 @@ const Product = ({ hideTitle }) => {
 
   const buildForm = () => {
     const buildObjectModel = () => {
-      let objectModel = { category, description, price };
+      let user_id = sessionStorageService.getItem(STORAGE_SESSION_IDENTIFIER)?._id;
+      let objectModel = { category, description, price, user_id };
       return (isEditPageType()) ? { _id: id, ...objectModel } : objectModel;
     }
 

@@ -7,8 +7,8 @@ export async function findById(id) {
 }
 
 
-export async function getAll(id) {
-  return get(BASE_URL);
+export async function getAll(user_id) {
+  return get(`${BASE_URL}/user/${user_id}`, user_id);
 }
 
 export async function findAll(pageFrom, pageSize, projectionFields, filters) {

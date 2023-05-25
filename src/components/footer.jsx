@@ -17,7 +17,7 @@ export default function Footer(props) {
 
   return (
     <StyledContainer>
-      <p> by <a class="link" href="https://www.linkedin.com/in/fernando-nicolás-rouco-a1066262/">FnR</a></p>
+      <p> by <a className="link" href="https://www.linkedin.com/in/fernando-nicolás-rouco-a1066262/">FnR</a></p>
     </StyledContainer>
   );
 }

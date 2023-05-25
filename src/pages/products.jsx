@@ -27,7 +27,9 @@ const Products = () => {
   }, []);
 
   const fetchProducts = () => {
-    getAll().then((products) => {
+    const sessionObject = sessionStorageService.getItem(STORAGE_SESSION_IDENTIFIER);
+    let user_id = sessionObject?._id;
+    getAll(user_id).then((products) => {
       setProducts(products);
     });
   }
@@ -120,7 +122,9 @@ const Products = () => {
         </table>
       </Panel>
       <Modal title='Product' show={modalShow} >
-        <Product hideTitle ></Product>
+        { !modalShow ||
+          <Product hideTitle ></Product>
+        }
       </Modal>
     </>
   )
