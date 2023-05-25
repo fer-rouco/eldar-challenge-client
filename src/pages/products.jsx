@@ -78,13 +78,11 @@ const Products = () => {
               <th scope="col">Category</th>
               <th scope="col">Description</th>
               <th scope="col">Price</th>
-              { !isAdmin() ||
-                <th scope="col">
-                  <Link to={{ pathname: `/Product` }} onClick={() => createProduct()} >
-                    <Icon fontName='plus-square-dotted' ></Icon>
-                  </Link>
-                </th>
-              }
+              <th scope="col">
+                <Link to={{ pathname: `/Product` }} onClick={() => createProduct()} >
+                  <Icon fontName='plus-square-dotted' ></Icon>
+                </Link>
+              </th>
               <th scope="col"></th>
               { !isAdmin() ||
                 <th scope="col"></th>

@@ -27,7 +27,7 @@ or
 user: user@elder.com
 pass: user
 
-Accessing with admin user you can create, update, view and delete a product. On the other hand if you enter with another user, you will only be able to use see a product info.
+Accessing with admin user you can create, update, view and delete a product. On the other hand if you enter with another user, you will only be able to create a new product and see a product info.
 You can create more users using insomnia (or other similar tool) via this API:
 Method: POST
 URL: https://eldar-challenge-server.onrender.com/api/auth/register
