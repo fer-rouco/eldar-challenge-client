@@ -1,5 +1,5 @@
 {
-  "SERVER_URL": "http://localhost:4000/",
+  "SERVER_URL": "https://eldar-challenge-server.onrender.com/",
   "DEVELOP_MODE": false,
   "STORAGE_PREFIX": "Eldar",
   "STORAGE_SEPARATOR": "."
