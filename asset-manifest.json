@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fernet87/eldar-challenge-server/static/css/main.1bea7ef9.css",
-    "main.js": "/fernet87/eldar-challenge-server/static/js/main.1963c03d.js",
+    "main.js": "/fernet87/eldar-challenge-server/static/js/main.42b08eec.js",
     "static/js/577.3667835b.chunk.js": "/fernet87/eldar-challenge-server/static/js/577.3667835b.chunk.js",
     "static/js/81.cbec6a81.chunk.js": "/fernet87/eldar-challenge-server/static/js/81.cbec6a81.chunk.js",
     "static/js/515.c2297711.chunk.js": "/fernet87/eldar-challenge-server/static/js/515.c2297711.chunk.js",
@@ -13,7 +13,7 @@
     "static/media/bootstrap-icons.woff2?": "/fernet87/eldar-challenge-server/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
     "index.html": "/fernet87/eldar-challenge-server/index.html",
     "main.1bea7ef9.css.map": "/fernet87/eldar-challenge-server/static/css/main.1bea7ef9.css.map",
-    "main.1963c03d.js.map": "/fernet87/eldar-challenge-server/static/js/main.1963c03d.js.map",
+    "main.42b08eec.js.map": "/fernet87/eldar-challenge-server/static/js/main.42b08eec.js.map",
     "577.3667835b.chunk.js.map": "/fernet87/eldar-challenge-server/static/js/577.3667835b.chunk.js.map",
     "81.cbec6a81.chunk.js.map": "/fernet87/eldar-challenge-server/static/js/81.cbec6a81.chunk.js.map",
     "515.c2297711.chunk.js.map": "/fernet87/eldar-challenge-server/static/js/515.c2297711.chunk.js.map",
@@ -24,6 +24,6 @@
   },
   "entrypoints": [
     "static/css/main.1bea7ef9.css",
-    "static/js/main.1963c03d.js"
+    "static/js/main.42b08eec.js"
   ]
 }
