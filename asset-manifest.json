@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/eldar-challenge-client/static/css/main.1f06dddc.css",
-    "main.js": "/eldar-challenge-client/static/js/main.d876c9c1.js",
-    "static/js/577.3667835b.chunk.js": "/eldar-challenge-client/static/js/577.3667835b.chunk.js",
+    "main.js": "/eldar-challenge-client/static/js/main.94d5daa4.js",
+    "static/js/577.e4b18291.chunk.js": "/eldar-challenge-client/static/js/577.e4b18291.chunk.js",
     "static/js/81.cbec6a81.chunk.js": "/eldar-challenge-client/static/js/81.cbec6a81.chunk.js",
-    "static/js/515.79f8b438.chunk.js": "/eldar-challenge-client/static/js/515.79f8b438.chunk.js",
-    "static/js/140.12029896.chunk.js": "/eldar-challenge-client/static/js/140.12029896.chunk.js",
+    "static/js/515.4f9fe53f.chunk.js": "/eldar-challenge-client/static/js/515.4f9fe53f.chunk.js",
+    "static/js/140.2dc3089e.chunk.js": "/eldar-challenge-client/static/js/140.2dc3089e.chunk.js",
     "static/js/433.78cb8632.chunk.js": "/eldar-challenge-client/static/js/433.78cb8632.chunk.js",
     "static/js/787.3015b479.chunk.js": "/eldar-challenge-client/static/js/787.3015b479.chunk.js",
     "static/js/776.43a5d2e1.chunk.js": "/eldar-challenge-client/static/js/776.43a5d2e1.chunk.js",
@@ -13,17 +13,17 @@
     "static/media/bootstrap-icons.woff2?": "/eldar-challenge-client/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
     "index.html": "/eldar-challenge-client/index.html",
     "main.1f06dddc.css.map": "/eldar-challenge-client/static/css/main.1f06dddc.css.map",
-    "main.d876c9c1.js.map": "/eldar-challenge-client/static/js/main.d876c9c1.js.map",
-    "577.3667835b.chunk.js.map": "/eldar-challenge-client/static/js/577.3667835b.chunk.js.map",
+    "main.94d5daa4.js.map": "/eldar-challenge-client/static/js/main.94d5daa4.js.map",
+    "577.e4b18291.chunk.js.map": "/eldar-challenge-client/static/js/577.e4b18291.chunk.js.map",
     "81.cbec6a81.chunk.js.map": "/eldar-challenge-client/static/js/81.cbec6a81.chunk.js.map",
-    "515.79f8b438.chunk.js.map": "/eldar-challenge-client/static/js/515.79f8b438.chunk.js.map",
-    "140.12029896.chunk.js.map": "/eldar-challenge-client/static/js/140.12029896.chunk.js.map",
+    "515.4f9fe53f.chunk.js.map": "/eldar-challenge-client/static/js/515.4f9fe53f.chunk.js.map",
+    "140.2dc3089e.chunk.js.map": "/eldar-challenge-client/static/js/140.2dc3089e.chunk.js.map",
     "433.78cb8632.chunk.js.map": "/eldar-challenge-client/static/js/433.78cb8632.chunk.js.map",
     "787.3015b479.chunk.js.map": "/eldar-challenge-client/static/js/787.3015b479.chunk.js.map",
     "776.43a5d2e1.chunk.js.map": "/eldar-challenge-client/static/js/776.43a5d2e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1f06dddc.css",
-    "static/js/main.d876c9c1.js"
+    "static/js/main.94d5daa4.js"
   ]
 }
