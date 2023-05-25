@@ -37,6 +37,10 @@ export default function NavBar(props) {
     navigate('/');
   };
 
+  const isUserLoggedIn = () => {
+    return Boolean(sessionStorageService.getItem(STORAGE_SESSION_IDENTIFIER));
+  }
+
   return (
     <StyledNav className="">
       <div className="container-fluid">
@@ -45,7 +49,9 @@ export default function NavBar(props) {
             {props.title}
           </StyledNavTitle>
           <StyledNavLogout className="col-2 align-self-center" onClick={logOut} >
-            Logout
+            { !isUserLoggedIn() ||
+              'Logout'
+            }
           </StyledNavLogout>
         </div>
       </div>
