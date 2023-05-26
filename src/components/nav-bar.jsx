@@ -6,6 +6,8 @@ import { useNavigate } from 'react-router-dom';
 
 const StyledNav = styled.nav`
   background-color: #262626; // #e1e1e1;
+  position: fixed;
+  width: 100%;
 `;
 
 const StyledNavTitle = styled.div`

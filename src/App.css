@@ -3,7 +3,7 @@
 }
 
 body {
-  overflow-y: hidden;
+  overflow-y: auto;
 }
 
 header {
@@ -15,7 +15,11 @@ main {
 }
 
 footer {
-  height: 4vh;
+  height: 5vh;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 h1 {

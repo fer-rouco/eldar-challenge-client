@@ -18,7 +18,7 @@ const StyledContainer = styled.div`
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
 
-  overflow-x: scroll;
+  overflow-x: auto;
   overflow-y: auto;
   max-height: 700px;
 
